@@ -1,0 +1,57 @@
+Write a program to find whether the given two strings
+
+Input Format
+
+Input consists of 2 strings.
+
+Constraints
+
+string
+
+Output Format
+
+If two strings are same, display “Strings are same”, else display “Strings are not same”.
+
+Sample Input 0
+
+java
+java
+Sample Output 0
+
+Strings are same
+Sample Input 1
+
+python
+Java
+Sample Output 1
+
+Strings are not same
+===================================
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    char ch1[20],ch2[20];
+    int i;
+    gets(ch1);
+    gets(ch2);
+    i=0;
+        ch1[i]!='\0';
+
+        ch2[i]!='\0';
+    
+        if(ch1[i]==ch2[i])
+            {
+            printf("Strings are same");
+            
+            }
+        else{
+            printf("Strings are not same");
+            }
+        i++;
+    return 0;
+}
